@@ -1,0 +1,26 @@
+{
+    "name": "function-viewer",
+    "version": "1.0.0",
+    "description": "See moving functions and in 3D",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^3.0.0",
+        "three": "^0.143.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Its-Just-Nans/function-viewer.git"
+    },
+    "author": "n4n5",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Its-Just-Nans/function-viewer/issues"
+    },
+    "homepage": "https://github.com/Its-Just-Nans/function-viewer#readme"
+}

@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+body {
+    margin: 0px;
+}
+
+hr {
+    display: block;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+#help {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    text-align: center;
+    background-color: whitesmoke;
+    border-top: 1px solid black;
+}
+
+#details > * {
+    display: inline;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+        sans-serif;
+}
+
+#more {
+    display: inline;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+        sans-serif;
+    font-weight: bold;
+}
+
+#more:hover {
+    cursor: pointer;
+}
